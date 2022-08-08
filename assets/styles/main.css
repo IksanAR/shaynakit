@@ -1,0 +1,488 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+}
+
+body .text-shaynaPrimary {
+  color: #150544;
+}
+
+body .text-shaynaSecondary {
+  color: #5A6772;
+}
+
+body .bg-shaynaPrimary {
+  background-color: #150544;
+  color: #fff;
+}
+
+body .bg-shaynaPrimary:hover {
+  background-color: #614EF5;
+  color: #fff;
+}
+
+body .bg-shaynaSecondary {
+  background-color: #6552FF;
+  color: #fff;
+}
+
+body .bg-shaynaSecondary:hover {
+  background-color: #3115ff;
+  color: #fff;
+}
+
+.shayna-nav {
+  margin-top: 40px;
+}
+
+.shayna-nav .container .navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.shayna-nav .container .navbar-collapse .navbar-nav .nav-item .nav-link {
+  padding-left: 30px;
+  color: #5A6772;
+  font-size: 18px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#614EF5), to(#614EF5)) center bottom;
+  background: linear-gradient(#614EF5, #614EF5) center bottom;
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.45s;
+  transition: all 0.45s;
+}
+
+.shayna-nav .container .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #150544;
+  background-size: 50% 2px;
+}
+
+.shayna-nav .container .navbar-collapse .navbar-nav .nav-item .active {
+  color: #150544;
+  font-weight: 500;
+}
+
+.shayna-nav .container .bg-shaynaPrimary {
+  margin-left: 44px;
+  padding: 12px 40px;
+  font-size: 18px;
+  overflow: hidden;
+  -webkit-transition: all 0.45s;
+  transition: all 0.45s;
+}
+
+.shayna-nav .container .bg-shaynaPrimary:hover {
+  border-radius: 35px;
+  overflow: hidden;
+}
+
+main .section-hero {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  min-height: 100vh;
+  background-image: url("/assets/images/bg_hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main .section-hero .hero-header {
+  margin-bottom: 70px;
+}
+
+main .section-hero .hero-header .header {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+main .section-hero .hero-header .header-child {
+  font-size: 18px;
+  padding-top: 8px;
+  font-weight: 400;
+}
+
+main .section-hero .hero-body .row div .card {
+  margin-bottom: 50px;
+  border: none;
+  background-color: transparent;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+main .section-hero .hero-body .row div .card .icon-content {
+  margin-bottom: 24px;
+}
+
+main .section-hero .hero-body .row div .card .icon-content img {
+  width: 70px;
+  height: 70px;
+}
+
+main .section-hero .hero-body .row div .card .title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+main .section-hero .hero-body .row div .card .description {
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+main .section-packages {
+  min-height: 540px;
+  margin-top: 100px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .section-packages .container .packages-header {
+  margin-bottom: 70px;
+}
+
+main .section-packages .container .packages-header .header {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+main .section-packages .container .packages-header .header-child {
+  font-size: 18px;
+  padding-top: 8px;
+  font-weight: 400;
+}
+
+main .section-packages .container .packages-content {
+  padding-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .section-packages .container .packages-content .card {
+  margin-right: 50px;
+  max-width: 320px;
+  border: none;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+  color: #150544;
+  border-radius: 11px;
+}
+
+main .section-packages .container .packages-content .card .card-body {
+  padding: 30px;
+  padding-top: 13px;
+}
+
+main .section-packages .container .packages-content .card .card-body .packages-price {
+  font-size: 52px;
+  font-weight: 800;
+}
+
+main .section-packages .container .packages-content .card .card-body .packages-price .text-small {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+main .section-packages .container .packages-content .card .card-body .packages-discription {
+  font-weight: 300;
+}
+
+main .section-packages .container .packages-content .card .card-body .list-packages {
+  list-style: none;
+  padding-left: 0rem;
+  margin-bottom: 30px;
+}
+
+main .section-packages .container .packages-content .card .card-body .list-packages .list-packages-item {
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+main .section-packages .container .packages-content .card .card-body .list-packages .list-packages-item span {
+  padding-right: 14px;
+}
+
+main .section-packages .container .packages-content .card .card-body .list-packages .list-packages-item span img {
+  width: 26px;
+  height: 26px;
+}
+
+main .section-packages .container .packages-content .card-most-choice {
+  border: solid 2px #160647;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: -45px;
+  overflow: hidden;
+  border-radius: 11px;
+}
+
+main .section-packages .container .packages-content .card-most-choice .header-most-choice {
+  background-color: #150544;
+  color: #fff;
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px auto;
+}
+
+main .section-packages .container .packages-content-decription {
+  margin-top: 70px;
+}
+
+main .section-packages .container .packages-content-decription .text-shaynaPrimary {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+main .section-packages .container .packages-content-decription .terms_cond {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+main .section-packages-content {
+  background-color: #E7F6FF;
+  min-height: 567px;
+  margin-top: -500px;
+}
+
+main .section-testimonial {
+  background-image: url("/assets/images/bg_testimonial.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 70px;
+}
+
+main .section-testimonial .container .testimoninal-content {
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 120px;
+}
+
+main .section-testimonial .container .testimoninal-content .testimonial-description {
+  margin-bottom: 50px;
+}
+
+main .section-testimonial .container .testimoninal-content .testimonial-description .quote {
+  font-size: 288px;
+  color: #6552FF;
+  float: left;
+  height: 100px;
+  margin-left: -50px;
+  margin-top: -150px;
+}
+
+main .section-testimonial .container .testimoninal-content .testimonial-description .title {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 54px;
+  color: #fff;
+}
+
+main .section-testimonial .container .testimoninal-content .testimonial-description .title .quote {
+  font-size: 288px;
+  color: #6552FF;
+}
+
+main .section-testimonial .container .testimoninal-content .testimonial-description .title .underline {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #6552FF;
+  /* Safari */
+  text-decoration-color: #6552FF;
+}
+
+main .section-testimonial .container .testimoninal-content .testimonial-user {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .section-testimonial .container .testimoninal-content .testimonial-user .testimonial-user-image {
+  margin-bottom: 16px;
+}
+
+main .section-testimonial .container .testimoninal-content .testimonial-user .testimonial-user-image img {
+  width: 100px;
+  width: 100px;
+  border-radius: 36%;
+}
+
+main .section-testimonial .container .testimoninal-content .testimonial-user .testimonial-user-name {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+main .section-testimonial .container .testimoninal-content .testimonial-user .testimonial-user-role {
+  color: #ABA6BB;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media (min-width: 375px) and (max-width: 428px) {
+  main .section-packages {
+    min-height: 540px;
+    margin-top: 50px;
+  }
+  main .section-packages .container .packages-header {
+    margin-bottom: 30px;
+  }
+  main .section-packages .container .packages-header .header {
+    font-size: 32px;
+  }
+  main .section-packages .container .packages-header .header-child {
+    font-size: 18px;
+    padding-top: 8px;
+    font-weight: 400;
+  }
+  main .section-packages .container .packages-content {
+    padding-top: 70px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    flex-direction: column-reverse;
+    margin-left: 5vw;
+  }
+  main .section-packages .container .packages-content .card {
+    margin-right: 0;
+    max-width: auto;
+  }
+  main .section-packages .container .packages-content .card-most-choice {
+    border-radius: 11px;
+  }
+  main .section-testimonial .container .testimoninal-content {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 120px;
+  }
+  main .section-testimonial .container .testimoninal-content .testimonial-description {
+    margin-bottom: 50px;
+  }
+  main .section-testimonial .container .testimoninal-content .testimonial-description .quote {
+    font-size: 150px;
+    float: left;
+    margin-left: 0px;
+    margin-top: -80px;
+  }
+  main .section-testimonial .container .testimoninal-content .testimonial-description .title {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  main .section-testimonial .container .testimoninal-content .testimonial-user .testimonial-user-name {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 429px) and (max-width: 767.98px) {
+  .shayna-nav {
+    margin-top: 20px;
+  }
+  .shayna-nav .container .navbar-collapse .navbar-nav .nav-item .nav-link {
+    padding-left: 0;
+  }
+  .shayna-nav .container .bg-shaynaPrimary {
+    margin-left: 0;
+  }
+  main .section-hero {
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  main .section-hero .hero-header {
+    margin-bottom: 70px;
+  }
+  main .section-hero .hero-header .header {
+    font-size: 32px;
+  }
+  main .section-hero .hero-header .header-child {
+    font-size: 14px;
+    padding-top: 0px;
+  }
+  main .section-hero .hero-body .row div .card {
+    margin-bottom: 50px;
+    border: none;
+    background-color: transparent;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  main .section-hero .hero-body .row div .card .icon-content {
+    margin-bottom: 24px;
+  }
+  main .section-hero .hero-body .row div .card .icon-content img {
+    width: 70px;
+    height: 70px;
+  }
+  main .section-hero .hero-body .row div .card .title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 6px;
+  }
+  main .section-hero .hero-body .row div .card .description {
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  main .section-packages {
+    min-height: 540px;
+    margin-top: 50px;
+  }
+  main .section-packages .container .packages-header {
+    margin-bottom: 30px;
+  }
+  main .section-packages .container .packages-header .header {
+    font-size: 32px;
+  }
+  main .section-packages .container .packages-header .header-child {
+    font-size: 18px;
+    padding-top: 8px;
+    font-weight: 400;
+  }
+  main .section-packages .container .packages-content {
+    padding-top: 70px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    flex-direction: column-reverse;
+    margin-left: 20%;
+  }
+  main .section-packages .container .packages-content .card {
+    margin-right: 0;
+    max-width: auto;
+  }
+  main .section-packages .container .packages-content .card-most-choice {
+    border-radius: 11px;
+  }
+  main .section-testimonial .container .testimoninal-content {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 120px;
+  }
+  main .section-testimonial .container .testimoninal-content .testimonial-description {
+    margin-bottom: 50px;
+  }
+  main .section-testimonial .container .testimoninal-content .testimonial-description .quote {
+    font-size: 150px;
+    color: #6552FF;
+    float: left;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: -100px;
+  }
+  main .section-testimonial .container .testimoninal-content .testimonial-description .title {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  main .section-testimonial .container .testimoninal-content .testimonial-user .testimonial-user-name {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
